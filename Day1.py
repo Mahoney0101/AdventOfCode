@@ -4,7 +4,7 @@ questionOutput = [155,157,156,172,170,186,198,189,207,213,222,228,229,227,220,22
 
 def increases(measurements):
     y = 0
-    for i in range(len()-1):
+    for i in range(len(questionOutput)-1):
         if (measurements[i + 1]) > (measurements[i]):
             y = y + 1
     print(y)
