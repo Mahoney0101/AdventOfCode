@@ -12,7 +12,7 @@ int main() {
         }
     i++;
     }
-    cout << y;
+    cout << y << endl;
     
     i = 0;
     y = 0;
